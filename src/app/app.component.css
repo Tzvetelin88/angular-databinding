@@ -1,0 +1,7 @@
+.container {
+  margin-top: 30px;
+}
+/* CSS is applied to the current component. Angular adds additional flag to the HTML and element becoms unique */
+p {
+  color: blue;
+}

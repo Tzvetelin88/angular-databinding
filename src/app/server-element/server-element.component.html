@@ -1,0 +1,10 @@
+<div class="panel panel-default">
+  <!--<div class="panel-heading">{{ element.name }}</div>-->
+  <div class="panel-heading" #heading>{{ name }}</div>
+  <div class="panel-body">
+
+    <!-- Special Directive - it's like a hook which adds content between opening and closing tag of a MAIN component -->
+    <ng-content></ng-content>
+
+  </div>
+</div>
